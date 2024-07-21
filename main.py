@@ -25,7 +25,9 @@
 from nltk.stem import SnowballStemmer
 
 # Define the path to your text file
-file_path = "your_text.txt"
+# file_path = "~/PycharmProjects/pythonProject/venv"
+file_path = "~/../venv/file.txt"
+
 
 # Create an Italian SnowballStemmer object
 italian_stemmer = SnowballStemmer("italian")
